@@ -7,7 +7,7 @@ points = (driver_speed - road_speed)/5
 if driver_speed <= 60:
     print("OK")
 elif driver_speed > road_speed:
-    print("Points: " +str(points))
+    print("Points: " + str(points))
 
     if points > 12:
         print("Time to go to jail")
